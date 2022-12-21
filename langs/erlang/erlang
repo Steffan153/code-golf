@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+[ $1 = "--version" ] && exec /usr/local/lib/erlang/bin/erl -eval "erlang:display(erlang:system_info(otp_release)), halt()." -noshell
+
+echo > /tmp/code.erl
+cat - >> /tmp/code.erl
+
+shift
+exec /usr/local/lib/erlang/bin/escript /tmp/code.erl "$@"

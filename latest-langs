@@ -13,6 +13,7 @@ constant @urls = (
     'D'          => 'D_(programming_language)',
     'Dart'       => 'Dart_(programming_language)',
     'Elixir'     => 'Elixir_(programming_language)',
+    'Erlang'     => 'Erlang_(programming_language)',
     'F#'         => 'F_Sharp_(programming_language)',
     'Fortran'    => 'GNU_Fortran',
     'Go'         => 'Go_(programming_language)',

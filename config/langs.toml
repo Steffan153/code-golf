@@ -358,6 +358,14 @@ for i <- 0..9, do: IO.puts i
 for arg <- System.argv, do: IO.puts arg
 '''
 
+[Erlang]
+size    = '168 MiB'
+version = '1.14.1'
+website = 'https://elixir-lang.org'
+example = '''
+main(_)->io:format("Hello, World!").
+'''
+
 ['F#']
 size    = '135 MiB'
 version = 'F# 6.0 on .NET 6.0.11'
